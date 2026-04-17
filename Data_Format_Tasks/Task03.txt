@@ -1,0 +1,58 @@
+TASK 3
+Convert into JSON,XML
+Alice posted 'Just finished my Java project!' on January 20, 2024 at 3:45 PM. She received 15 likes from Bob, Charlie, and Diana. There were 3 comments: Bob said 'Great work!', Charlie said 'Congratulations!', and Diana said 'Well done, Alice!'. The post was tagged with #programming and #java.
+
+JSON:
+
+{
+  "post": {
+    "name": "Alice",
+    "content": "Just finished my Java project!",
+    "date": "January 20, 2024",
+    "time": "3:45 PM"
+    "likes": 15
+    "comments": [
+      {
+        "user": "Bob",
+        "text": "Great work!"
+      },
+      {
+        "user": "Charlie",
+        "text": "Congratulations!"
+      },
+      {
+        "user": "Diana",
+        "text": "Well done, Alice!"
+      }
+    ],
+    "tags": ["#programming", "#java"]
+  }
+}
+
+XML:
+
+<post>
+    <name>Alice</name>
+    <content>Just finished my Java project!</content>
+    <date>January 20, 2024</date>
+    <time>3:45 PM</time>
+    <likes>15</likes>
+    <comments>
+        <comment>
+            <user>Bob</user>
+            <text>Great work!</text>
+        </comment>
+        <comment>
+            <user>Charlie</user>
+            <text>Congratulations!</text>
+        </comment>
+        <comment>
+            <user>Diana</user>
+            <text>Well done, Alice!</text>
+        </comment>
+    </comments>
+    <tags>
+        <tag>#programming</tag>
+        <tag>#java</tag>
+    </tags>
+</post>

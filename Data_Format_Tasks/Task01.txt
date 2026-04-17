@@ -1,0 +1,30 @@
+TASK 1
+Convert into JSON,CSV
+We have three products: Laptop costs $1200 with 15 units in stock, Mouse costs $25 with 50 units in stock, and Keyboard costs $75 with 30 units in stock.
+
+JSON:
+
+[
+  {
+    "product": "Laptop",
+    "cost": 1200,
+    "stock": 15
+  },
+  {
+    "product": "Mouse",
+    "cost": 25,
+    "stock": 50
+  },
+  {
+    "product": "Keyboard",
+    "cost": 75,
+    "stock": 30
+  }
+]
+
+CSV:
+
+product,cost,stock
+Laptop,1200,15
+Mouse,25,50
+Keyboard,75,30

@@ -1,0 +1,40 @@
+TASK 2
+Convert into JSON,Yaml 
+John Smith works in the IT department, earns $75,000 per year, started on January 15, 2020, and his skills include Java, Python, and SQL. Sarah Johnson works in HR, earns $65,000 per year, started on March 1, 2019, and her skills include Recruitment and Training.
+
+JSON:
+
+[
+  {
+    "name": "John Smith",
+    "department": "IT",
+    "salary": 75000,
+    "start_date": "January 15, 2020",
+    "skills": ["Java", "Python", "SQL"]
+  },
+  {
+    "name": "Sarah Johnson",
+    "department": "HR",
+    "salary": 65000,
+    "start_date": "March 1, 2019",
+    "skills": ["Recruitment", "Training"]
+  }
+]
+
+YAML:
+
+name: John Smith
+department: IT
+salary: 75000
+start_date: January 15, 2020
+skills:
+    - Java
+    - Python
+    - SQL
+name: Sarah Johnson
+department: HR
+salary: 65000
+start_date: March 1, 2019
+skills:
+    - Recruitment
+    - Training

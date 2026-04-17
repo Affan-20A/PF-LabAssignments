@@ -1,0 +1,52 @@
+TASK 4
+Convert into JSON, YML
+Order#1001 was placed by customer Alice Johnson (email: alice@email.com) on January 15, 2024. The order contains 2 Laptops at $1200 each and 1 Mouse at $25. Shipping address is 123 Main St, New York, NY 10001. Total amount is $2425. Payment method is Credit Card. Order status is 'Shipped'.
+
+JSON:
+
+{
+  "order": {
+    "order_no": 1001,
+    "customer": {
+      "name": "Alice Johnson",
+      "email": "alice@email.com"
+    },
+    "date": "January 15, 2024",
+    "items": [
+      {
+        "product": "Laptop",
+        "quantity": 2,
+        "single_price": 1200
+      },
+      {
+        "product": "Mouse",
+        "quantity": 1,
+        "single_price": 25
+      }
+    ],
+    "shipping_address": {123 Main St, New York, NY 10001},
+    "payment_method": "Credit Card",
+    "total_amount": 2425,
+    "status": "Shipped"
+  }
+}
+
+YML:
+
+order:
+  order_no: 1001
+  date: January 15, 2024
+  customer:
+    name: Alice Johnson
+    email: alice@email.com
+  items:
+    - product: Laptop
+      quantity: 2
+      single_price: 1200
+    - product: Mouse
+      quantity: 1
+      single_price: 25
+  shipping_address: 123 Main St, New York, NY 10001
+  payment_method: Credit Card
+  total_amount: 2425
+  status: Shipped
