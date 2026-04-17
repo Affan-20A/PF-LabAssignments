@@ -1,0 +1,26 @@
+{
+  "order_no": "1001",
+  "customer": {
+    "name": "Alice Johnson",
+    "email": "alice@email.com"
+  },
+  "order_date": "January 15, 2024",
+  "items": [
+    {
+      "product": "Laptop",
+      "quantity": 2,
+      "single_price": 1200,
+      "total": 2400
+    },
+    {
+      "product": "Mouse",
+      "quantity": 1,
+      "single_price": 25,
+      "total": 25
+    }
+  ],
+  "shipping_address": "123 Main St, New York, NY 10001",
+  "total_amount": 2425,
+  "payment_method": "Credit Card",
+  "status": "Shipped"
+}
